@@ -1,0 +1,41 @@
+.navtext{
+  @apply text-white hover:text-gray-200 cursor-pointer;
+}
+
+.footertext{
+  @apply text-white text-sm hover:text-gray-200 cursor-pointer;
+}
+
+@keyframes slide-start {
+  0% {
+    transform: translateX(100%);
+  }
+  50% {
+    transform: translateX(50%); /* Stop in the middle */
+  }
+  100% {
+    transform: translateX(0); /* End position */
+  }
+}
+
+@keyframes slide-end {
+  0% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-50%); /* Stop in the middle */
+  }
+  100% {
+    transform: translateX(0); /* End position */
+  }
+}
+
+/* Tailwind utility classes */
+.animate-slide-start {
+  animation: slide-start 2s ease-in-out forwards;
+}
+
+.animate-slide-end {
+  animation: slide-end 2s ease-in-out forwards;
+}
+

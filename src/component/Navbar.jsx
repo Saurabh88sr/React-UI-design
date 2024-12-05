@@ -22,7 +22,7 @@ const Navbar = () => {
   }, []);
   return (
     <div>
-      <header className={`fixed top-0  py-3 px-6 z-10 w-full ${showTopButton?"bg-white/50 backdrop-blur-md ":""}`}>
+      <header className={`fixed top-0  py-3 px-6 z-10 w-full ${showTopButton?"bg-black/50 backdrop-blur-md ":""}`}>
         <div className="flex justify-between items-center">
           <ul className="flex w-1/2 gap-24 ">
             <li className="navtext">HOME</li>

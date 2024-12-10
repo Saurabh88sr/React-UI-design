@@ -2,7 +2,7 @@ import AccessAlarmOutlinedIcon from "@mui/icons-material/AccessAlarmOutlined";
 
 const ChoiceCard = () => {
   return (
-    <div className="relative group">
+    <div className="relative group my-3">
       <div className="bg-blue-900 w-24 h-12 absolute -top-6 group-hover:-top-2 group-hover:-right-1 right-6 duration-500 flex justify-center items-center text-white rounded-lg shadow-lg">
         <AccessAlarmOutlinedIcon />
       </div>

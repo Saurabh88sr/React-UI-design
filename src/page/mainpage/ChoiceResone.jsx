@@ -24,7 +24,7 @@ const ChoiceResone = () => {
     <div>
       <div
         className={`  py-10 ${
-          showTopButton ? "px-24 " : "p-5"
+          showTopButton ? "sm:px-24 p-5 " : "p-5"
         } duration-500 bg-gradient-to-b from-slate-300 `}
 
       >
